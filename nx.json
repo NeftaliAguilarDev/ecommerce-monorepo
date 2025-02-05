@@ -37,7 +37,10 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/ecommerce-monorepo-e2e/**/*"]
+      "exclude": [
+        "apps/ecommerce-monorepo-e2e/**/*",
+        "apps/users-service-e2e/**/*"
+      ]
     }
   ]
 }
